@@ -17,6 +17,9 @@ h2 {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #4C1D95;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 
@@ -35,3 +38,13 @@ body{
 
 /* links */
 
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
