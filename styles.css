@@ -25,6 +25,10 @@ body{
 
 }
 
+
+hr{
+    margin: 2rem 0rem;
+}
 /* container */
 .container{
     padding-left: 1rem;
@@ -43,8 +47,28 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.primary-link{
+.link-primary {
     background-color: var(--primary-color);
-    border-radius: 00.5rem;
-    color: white;
+    border-radius: 0.5rem;
+    color: white
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* look into BEM naming convention for CSS */
+
+
+/** list**/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
