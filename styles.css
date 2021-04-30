@@ -19,6 +19,7 @@ h2 {
 
 :root{
     --primary-color: #4C1D95;
+    --off-white: #0a0d16;
     --dark-gray: #6B7280;
 }
 body{
@@ -124,4 +125,32 @@ color: var(--dark-gray) ;
 .hero .hero-heading .heading-inverted {
 
     color: var(--primary-color);
+}
+
+/** Section **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+
+    color: white;
 }
