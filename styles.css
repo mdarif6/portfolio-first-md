@@ -31,6 +31,14 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+
+/** spaces **/
+
+.marging-md{
+
+    margin: 2rem;
+}
+
 /* container */
 .container{
     padding-left: 1rem;
@@ -110,8 +118,11 @@ hr{
 }
 
  .hero .hero-img {
+    margin: 5px;
     padding: 35px;
+    border: 5px solid red;
     display: block;
+    width: 250px;
     /* margin: auto; */
 } 
 
@@ -139,6 +150,9 @@ color: var(--dark-gray) ;
 .ow{
     background-color: var(--off-white);
 }
+.colourwhite{
+    color: cornsilk;
+}
 
 /** footer **/
 
@@ -153,4 +167,9 @@ footer {
 .footer .link {
 
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: x-large;
 }
